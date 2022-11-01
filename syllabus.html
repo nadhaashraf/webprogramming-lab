@@ -1,0 +1,198 @@
+<DOCTYPE! HTML>
+<html>
+<head></head>
+<body>
+
+<h1><div align='center'><u><b>Web Programming Using HTML-Syllabus</u></b></h1></div>
+<div style="font-size: 30px;">
+<h2><u><b>Table of Contents</u></b></h2>
+
+<h2>Introduction  To  Web: </h2>
+<ul>
+<li><a href="#h1">Client/Server  concepts</a></li><br>
+<li><a href="#h2">Components  of  Web  Application</a></li><br>
+<li><a href="#h3">Types  of Web Content</a></li><br>
+<li><a href="#h4">Overview of HTTP - HTTP request – response</a></li><br>
+<li><a href="#h5">Generation of dynamic web pages</a></li><br>
+<li><a href="#h6">Application Servers</a></li><br>
+<li><a href="#h7">Web Security</a></li><br>
+</ul>
+</div>
+
+<p id="h1">
+<u><b><h3>Client-Server Model</h3></u></b><br>
+
+The Client-server model is a distributed application structure that partitions task or workload between the providers of a resource or service, called servers, and service requesters called clients. In the client-server architecture, when the client computer sends a request for data to the server through the internet, the server accepts the requested process and deliver the data packets requested back to the client. Clients do not share any of their resources. Examples of Client-Server Model are Email, World Wide Web, etc.
+<br><br>
+How the Client-Server Model works ?
+In this article we are going to take a dive into the Client-Server model and have a look at how the Internet works via, web browsers. This article will help us in having a solid foundation of the WEB and help in working with WEB technologies with ease.
+<br><br>
+Client: When we talk the word Client, it mean to talk of a person or an organization using a particular service. Similarly in the digital world a Client is a computer (Host) i.e. capable of receiving information or using a particular service from the service providers (Servers).<br><br>
+Servers: Similarly, when we talk the word Servers, It mean a person or medium that serves something. Similarly in this digital world a Server is a remote computer which provides information (data) or access to particular services.<br><br>
+So, its basically the Client requesting something and the Server serving it as long as its present in the database.
+</p>
+
+
+
+<br><br>
+<p id="h2">
+
+<u><b><h3>Components of Web Application </h3></u></b><br>
+Web application architecture comes with two types of web application architecture: Structural components, and user interface app components.
+<br><br>
+Structural Components:
+As the name suggests, these components make the structure of the application. These components include the client or web browser, database server, and web app server which are directly responsible for functions deciding the user interactions within the application. In the majority of cases, JavaScript, CSS, and HTML are used to create these components. However, it all varies with the web app developer.<br><br>
+User Interface Components:<br>
+The other one is the user interface components that contribute to the visual interface of the app. However, unlike structural components, that do not interact with the architecture, but are limited to displaying the web page. These components include a dashboard, widget, settings, notifications, and many other visual elements that help in making the user experience better. In other words, these components are directly responsible for the UX or the web app.<br><br>
+Web Application Architecture Layers:<br><br>
+Every web application architecture is built based on a layered architecture. However, it all depends on the app scale. Large applications may have four to six layers whereas small applications may have three layers. Each layer functions independently and its components are closed. Below are the four commonest layers of web application architecture.
+<br><br>
+Presentation Layer:
+The presentation layer aids in communication between the browser and the user interface of the application that eases the overall user interaction. Every presentation layer is created through JavaScript, HTML, CSS, and its frameworks.
+Business Layer:<br>
+The business layer helps in processing the browser requests, performs the business logic of the requests, and shares the same back to the previous layer. This layer primarily determines the business rules of the web app.
+Data Access Layer:<br>
+The data access layer is used to access data from XML, binary files, and other types of storage. In addition, it also helps in creating, reading, updating, and deleting operations.<br><br>
+Data Service Layer:<br>
+The final one is the data service layer which ensures data security and stores the entire data. This layer safeguards the data by separating the app business logic from the client-side.<br><br>
+Types of Web Application Architecture :<br>
+With different types of web applications, the architecture differs as well. The right architecture will allow the developer to get the best outcome from the web application and fulfill the app’s purpose as well. Here are all the various types of web application architectures.
+<br><br>
+Single Page Application Architecture:<br>
+Single Page Application architecture or SPA offers smoother app performance than websites and provides an interactive experience to the users. This architecture contains a single page with content elements, allowing users to load just a single page but with better interaction with the app.Rather than loading a new page with every request, it loads the relevant web page and updates the same whenever the information is requested by the user. Web applications based on this architecture send requests just for the required parts of the web page rather than loading new pages. Gmail, Google Maps, PayPal, and Pinterest are some of the industry-leading single-page applications.
+Multi-Page Application:<br>
+Sometimes when the websites are very large, making use of the SPA architecture does not seem effective. In that case, organizations prefer to go with a multi-page application where the page is reloaded to send data to the server through the browser rather than updating just the relevant information.With this architecture, large websites can be loaded easily with the utmost information. Multi-page application architecture is majorly used in eCommerce websites and applications. Amazon, Alibaba, and eBay are among the biggest examples of multi-page applications.<br><br>
+Microservices :<br>
+Many large sites use monolithic web application architecture which comes with the main issue of tightly coupled components. The alternative to this is using microservices architecture which separates the app into individual components that are not dependent on each other. With that in mind, it is not mandatory to develop each component in the same programming language.As the developers do not have to develop each component, it provides them with larger flexibility to pick the language/ technology as per their preference. This flexibility for the developers allows them to be more productive while completing the process in the least time possible. The top companies using this web application architecture include Etsy, Netflix, Uber, and Twitter.:
+Progressive Web Apps:<br>
+One of the best things about progressive web apps is that they are compatible with every device. Whether it is a desktop, a tablet, or a smartphone, these apps can adjust to any device with ease. Rather than the app store, these apps can be shared and found just through their URL.Furthermore, there are several other perks of having these apps including a user-friendly experience, lightweight, ability to be added to the home screen, and offline working capability.Trivago, Pinterest, Starbucks, Telegram, and Treebo are the top companies with progressive web applications. Amazon Web Services, Google Cloud Platform, and Microsoft Azure are the top providers of serverless architectures in the industry.<br><br>
+Serverless Architecture:<br>
+The last on this list is the serverless architecture which is different from the traditional way of software functioning. In the traditional method, the execution of the code is stored and managed by the app developer or organization.On the other hand, in serverless architecture, there is no need to have physical servers as the entire execution of code is managed by cloud service providers. Here the web applications are created and deployed on the third-party cloud servers.One key feature of this architecture is that it eradicates the issues related to physical servers.<br><br>
+Function-as-a-Service and Backend-as-a-Service are two types of serverless architectures. The former emphasizes more on events where it breaks the app into small functions that focus on code whereas the latter is more about frontend development tasks.
+</p>
+
+
+<br><br>
+<p id="h3">
+<u><b><h3>Types  of Web Content</h3></u></b><br>
+Web content is the text, visual or audio content that is made available online and user encountered as part of the online usage and experience on websites. It may include text, images, sounds and audio, online videos, among other items placed within web pages.
+<br><br>
+In the book Information Architecture for the World Wide Web, Lou Rosenfeld and Peter Morville wrote, "We define content broadly as 'the stuff in your website.' Web content may include webpage document pages, information, software data and applications, e-services, images, audio and video files, personal Web pages, archived e-mail messages stored on email servers, and more. And we include future web content as well as present web content roadmap."[1]: 219 
+<br><br>
+Content management<br>
+<br>
+Because websites are often complex, a term "content management" appeared in the late 1990s identifying a method or in some cases a tool to organize all the diverse elements to be contained on a website.[2][better source needed] Content management often means that within a business there is a range of people who have distinct roles to do with content management, such as content author, editor, publisher, and administrator. But it also means there may be a content management system whereby each of the different roles is organized to provide their assistance in operating the system and organizing the information for a website. A business may also employ various content protection measures, which are typically technologies used to attempt to frustrate copying without permission.
+</p>
+
+<br><br>
+<p id="h4">
+<u><b><h3>Overview of HTTP - HTTP request – response</h3></u></b><br>
+The Hypertext Transfer Protocol (HTTP) is an application-level protocol for distributed, collaborative, hypermedia information systems. This is the foundation for data communication for the World Wide Web (i.e. internet) since 1990. HTTP is a generic and stateless protocol which can be used for other purposes as well using extensions of its request methods, error codes, and headers.
+
+<br><br>
+Basically, HTTP is a TCP/IP based communication protocol, that is used to deliver data (HTML files, image files, query results, etc.) on the World Wide Web. The default port is TCP 80, but other ports can be used as well. It provides a standardized way for computers to communicate with each other. HTTP specification specifies how clients' request data will be constructed and sent to the server, and how the servers respond to these requests.
+
+<br><br>
+Basic Features
+<br>
+There are three basic features that make HTTP a simple but powerful protocol:
+<br><br>
+HTTP is connectionless: The HTTP client, i.e., a browser initiates an HTTP request and after a request is made, the client waits for the response. The server processes the request and sends a response back after which client disconnect the connection. So client and server knows about each other during current request and response only. Further requests are made on new connection like client and server are new to each other.
+<br><br>
+HTTP is media independent: It means, any type of data can be sent by HTTP as long as both the client and the server know how to handle the data content. It is required for the client as well as the server to specify the content type using appropriate MIME-type.
+<br><br>
+HTTP is stateless: As mentioned above, HTTP is connectionless and it is a direct result of HTTP being a stateless protocol. The server and client are aware of each other only during a current request. Afterwards, both of them forget about each other. Due to this nature of the protocol, neither the client nor the browser can retain information between different requests across the web pages.
+</p>
+
+<br><br>
+
+<u><b><h3 id="h5">Generation of dynamic web pages</h3></u></b><br>
+<table border="1">
+<tr><td>CGI</td><td>	A specification for writing programs that enables transactions between a Web server and other programs on a server</td></tr>
+<tr><td>PHP</td><td>	Scripting language that runs in the Linux operating system; used to extract and present data from a database</td></tr>
+<tr><td>Servlet</td><td>	Small application that runs on an Internet server, typically written in Java or Perl</td></tr>
+<tr><td>ASP</td><td>	Microsoft's version of dynamic Web page generation; uses VBScript as the default scripting language</td></tr>
+<tr><td>AJSP</td><td>	Sun's implementation for creating Web pages that display dynamically-generated content</td></tr>
+</table><br><br>
+Client-server applications are groups of distributed programs running on networked computers, and interacting over known communication protocols. Rather than performing all the processing on a single system and transmitting formatted results to VT-100 terminals, client-server applications distribute processing between dedicated server and client machines. This architecture was facilitated by the proliferation of personal computers, whose additional processing power allowed some of the complex processing to be offloaded from servers down to the clients.
+<br><br>
+Client-server applications that use fat clients
+Figure 6.7: Client-server applications that use fat clients
+<br><br>
+Over time, some proprietary client-server application platforms (e.g. PowerBuilder) grew to be very complex, and their configuration and maintenance became a nightmare. With each new version, the size and complexity of the client platform base seemed to increase by another order of magnitude, resulting in what were referred to as fat clients. This application bloat became a serious problem, especially as the number of fat clients installed on a single PC grew as well, as shown in Figure 6.7.
+<br><br><br>
+
+
+<u><b><h3 id="h6">Application Servers</h3></u></b><br>
+<p>
+Application Server is a type of server designed to install, operate, and host applications. In the early days of application servers, there was a huge growth in the number of applications brought to the Internet. Those applications became bigger and bigger with the demand for adding more and more functionalities to the application and become more complex to run and maintain. There was a need for some kind of program on the network while it will share application capabilities in an efficient and organized manner.
+
+</p>
+
+What is an Application Server?<br>
+An application server is a program that resides on the server-side, and it’s a server programmer providing business logic behind any application. This server can be a part of the network or the distributed network.
+<br><br>
+Now, if we would like to know the purpose of a server program, it goes this way:
+<br>
+Ideally, server programs are used to provide their services to the client program that either resides on the same machine or lies on a network.
+<br><br>
+Working<br>
+They are basically used in a web-based application that has 3 tier architecture. The position at which the application server fits in is described below:
+<br><br>
+Tier 1 – This is a GUI interface that resides at the client end and is usually a thin client (e.g. browser)
+Tier 2 – This is called the middle tier, which consists of the Application Server.
+Tier 3 – This is the 3rd tier which is backend servers. E.g., a Database Server.
+What-is-Application-Server 1.1
+<br><br>
+As we can see, they usually communicate with the webserver for serving any request that is coming from clients.
+<br><br>
+The client first makes a request, which goes to the webserver. The web server then sends it to the middle tier, i.e. the application server, which further gets the information from 3rd tier (e.g. database server) and sends it back to the webserver. The web server further sends back the required information to the client. Different approaches are being utilized to process requests through the web servers, and some of them are approaches like JSP (Java server pages), CGI, ASP (Active Server Pages), Java Scripts, Java servlets, etc.
+<br><br>
+Use of Application Servers<br>
+It helps the clients to process any requests by connecting to the Database and returning the information back to web servers.
+<br><br>
+The main purpose of the application server is given below:
+
+<br><br><br>
+A mechanism for reducing the size and complexity of the client programs.
+For the need to cache and control the data flow for better performance.
+A mechanism for implementing security for data as well as end-user traffic.
+Although they can have a different purpose, not all application servers are used for the same functionalities set. For example, someone might need it for scalability; others might need it for better managing applications for the web, etc.
+<br><br>
+What-is-Application-Server 1.2<br>
+Advantages<br>
+Provides a mechanism for dealing with all the components and running services like session management, synchronous and asynchronous client notifications.
+It becomes very easy to install applications in one place.
+Changing to any configuration, such as   moving the Database server, can be done centrally from one location<br>
+Patches and security updates are easy to deploy through them.
+It enables the ability to distribute requests to different servers based on their availability. This is done via Load Balancing.<br>
+It provides security to applications.<br>
+It enables fault tolerance with the ability to recover/failover recovery.
+It saves big time if we are required to install a copy of configurations on each machine individually.<br><br>
+It supports transaction support.<br>
+When it comes to performance, the application server greatly improves application performance as it is based on the client-server model.<br>
+Examples<br>
+There is a huge number of application servers that are used today. Some of the examples are given below:<br><br>
+
+JBoss<br>
+Weblogic<br>
+Websphere<br>
+Glassfish<br>
+Tcat Server<br>
+Apache Geronimo<br>
+JRun<br>
+Oracle OC4J<br>
+Sun GlassFish Enterprise Server<br>
+SAP Netweaver AS<br>
+Sybase Enterprise Application Server<br><br><br>
+
+<u><b><h3 id="h7">Web Security</h3></u></b><br>
+In general, web security refers to the protective measures and protocols that organizations adopt to protect the organization from cyber criminals and threats that use the web channel. Web security is critical to business continuity and to protecting data, users and companies from risk.<br><br>
+Web security must be a critical priority for every organization. Along with email, the web is one of the top vectors for cyberattacks. The web and the use of DNS services specifically are part of 91% of all malware attacks, and email and web together are a key part for 99% of successful breaches.<br><br>
+
+While the importance of web security is undisputed, protecting against web security threats grows more challenging each day. From thwarting attacks to dealing with limits in skills and resources, IT security departments face serious challenges when trying to secure the web.
+<br><br>
+
+In the past, security teams have deployed a collection of on-premises solutions to manage email and web security. But increasingly organizations are turning to comprehensive email and web security solutions – via integrated, cloud-based technologies that simplify the task and reduce the cost of reducing risk. And because attackers often leverage email and web channels together, a seamless and scalable strategy for protecting both is essential.
+</body>
+</html>
