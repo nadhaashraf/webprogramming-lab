@@ -1,0 +1,74 @@
+<html>
+<head><title>RegForm</title>
+</head>
+<body bgcolor="lavender">
+<form>
+<center>
+
+<marquee width="60%" direction="right" height="100px" scrollamount="20" onmouseover="this.stop();" onmouseout="this.start();">
+<h1>Welcome to Freshers World</h1>
+</marquee>
+
+<table border="1"style="width:35%">
+<tr>
+<td colspan="2"><h2 style="text-align: center">Registration Form</h2></td>
+</tr>
+<tr>
+<td>Name:</td>
+<td><input type="text" size="50"></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" size="50"></td>
+</tr>
+<td>Gender:</td>
+<td><input type="radio" value="male" id="male"><label>Male</label>
+<input type="radio" value="female" id="female"><label>Female</label></td>
+</tr>
+<tr>
+<td>Phone Number:</td>
+<td><input type="number" size="50"></td>
+</tr>
+<tr>
+<td>Email ID:</td>
+<td><input type="text" size="50"></td>
+</tr>
+<tr>
+<td>Qualification:</td>
+<td><select id="qual" name="qualification">
+  <option value="MCA">Masters in Computer Applications</option>
+  <option value="BCA">Bachelor in Computer Applications</option>
+  <option value="grad">Graduate</option>
+  
+</select></td>
+</tr>
+<tr>
+<td>Languages Known:</td>
+<td><input type="checkbox" id="english" name="english" value="English">
+  <label for="english">English</label>
+  <input type="checkbox" id="malayalam" name="malayalam" value="Malayalam">
+  <label for="malayalam">Malayalam</label>
+  <input type="checkbox" id="hindi" name="hindi" value="Hindi">
+  <label for="hindi">Hindi</label></td>
+</tr>
+
+<td>Address:</td>
+<td> <textarea name="address" rows="5" cols="20">
+</textarea> </td>
+</tr>
+<tr>
+<td>Upload CV:</td>
+<td><input type="file" id="cv" name="cv" size="50"></td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: center">
+<input type="reset" value="Reset">
+&nbsp;&nbsp;&nbsp;<input type="button" value="Login" onclick="alert('Registered Successfully!')" >
+</td>
+</tr>
+<table>
+</center>
+</form>
+</center>
+</body>
+</html>
